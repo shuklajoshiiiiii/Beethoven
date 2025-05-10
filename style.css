@@ -1,0 +1,65 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: lightblue;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+    text-decoration: underline wavy;
+}
+
+.main-image {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    border: 10px ridge gold;
+    border-radius: 50px 0 50px 0;
+}
+
+.fun-facts {
+    background-color: pink;
+    padding: 15px;
+    margin-top: 20px;
+    border: 3px dotted red;
+}
+
+.music-player {
+    background-color: lightgreen;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+}
+
+.my-opinion {
+    font-size: 24px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.flashing {
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+    0% {color: red;}
+    50% {color: blue;}
+    100% {color: green;}
+}
+
+table {
+    border: 2px solid black;
+    margin: 20px auto;
+    background-color: yellow;
+}
+
+td {
+    padding: 10px;
+    border: 1px dashed black;
+}
